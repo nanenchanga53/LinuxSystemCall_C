@@ -1,0 +1,13 @@
+CC=gcc
+CFLAGS=-g -Wall
+OBJS=main.o copy.o
+TARGET=app.out
+ 
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $(OBJS)
+ 
+main.o: copy.h main.c
+copy.o: copy.h copy.c
+
+clean:
+	rm *.o app.out

@@ -1,0 +1,4 @@
+하드링크, 소프트링크 예제
+echo "test link type" > test //예제파일 생성
+ln -s test sym_test //소프트링크 생성(바로가기 만들기)
+ln test hard_test //하드링크 생성(이름이 다른 같은 파일만들기)

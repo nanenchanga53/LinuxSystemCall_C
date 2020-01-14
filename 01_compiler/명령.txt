@@ -1,0 +1,3 @@
+#gcc hello.c -o helloexe
+#ls
+hello.c helloexe  a.out 이아닌 helloexe로 출력하게됨
