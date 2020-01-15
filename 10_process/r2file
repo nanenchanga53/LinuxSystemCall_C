@@ -1,0 +1,36 @@
+합계 212
+-rw-rw-r-- 1 class class  204  1월 13 02:20 10_zombie.c
+-rw-rw-r-- 1 class class  357  1월 13 02:21 11_zombie_sol.c
+-rw-rw-r-- 1 class class  533  1월 13 01:13 12_orphan.c
+-rw-rw-r-- 1 class class  740  1월 15 10:06 1_args.c
+-rw-rw-r-- 1 class class  636  1월 15 10:08 2_exit.c
+-rw-rw-r-- 1 class class  927  1월 15 11:05 3_fork.c
+-rw-rw-r-- 1 class class 1221  1월 15 11:38 4_forkwait.c
+-rw-rw-r-- 1 class class 1101  1월 15 11:52 5_forkwait2.c
+-rw-rw-r-- 1 class class  983  1월 15 12:32 6_exec.c
+-rw-rw-r-- 1 class class 1293  1월 15 12:27 6_exec_sample.c
+-rw-rw-r-- 1 class class 1273  1월 15 14:06 7_redirect.c
+-rw-rw-r-- 1 class class  476  1월 13 02:19 8_pgrp.c
+-rw-rw-r-- 1 class class  854  1월 13 02:20 9_pgrp_wait.c
+-rwxrwxr-x 1 class class 8776  1월 15 09:47 argc
+-rw-rw-r-- 1 class class  821  1월 15 10:29 atexitEample.c
+-rwxrwxr-x 1 class class 8960  1월 15 10:29 atexitExample
+-rw-rw-r-- 1 class class    0  1월 15 12:21 b.out
+-rwxrwxr-x 1 class class 8848  1월 15 12:27 exec
+-rwxrwxr-x 1 class class 9024  1월 15 12:30 exec_sample
+-rwxrwxr-x 1 class class 8856  1월 15 10:08 exit
+-rw-rw-r-- 1 class class   68  1월 15 14:02 find.txt
+-rwxrwxr-x 1 class class 8712  1월 15 10:49 fork
+-rwxrwxr-x 1 class class 8824  1월 15 11:28 forkExample
+-rw-rw-r-- 1 class class 1162  1월 15 11:28 forkExample.C
+-rwxrwxr-x 1 class class 8928  1월 15 11:41 forkwait2
+-rwxrwxr-x 1 class class 8872  1월 15 11:32 forwait
+-rw-rw-r-- 1 class class  225  1월 15 12:31 log.txt
+-rw-rw-r-- 1 class class   60  1월 15 09:20 out1.txt
+-rw-rw-r-- 1 class class  187  1월 15 09:20 out2.txt
+-rw------- 1 class class    0  1월 15 14:06 r2file
+-rw-rw-r-- 1 class class 2431  1월 15 12:10 readme.txt
+-rwxrwxr-x 1 class class 9200  1월 15 14:06 redirect
+-rwxrwxr-x 1 class class 9200  1월 15 14:05 redirect2
+[13204] 자식 프로세스 13205 종료 
+부모 프로세스 종료

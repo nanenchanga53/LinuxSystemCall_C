@@ -1,0 +1,6 @@
+2020. 01. 15. (수) 09:20:21 KST
+guest-w2ukh9 tty7         2020-01-15 09:05 (:0)
+class    tty8         2020-01-15 09:06 (:1)
+/home/class/code/C/Work/10_process
+
+//(date;who;pwd)>out2.txt

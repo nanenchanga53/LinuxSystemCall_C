@@ -1,0 +1,3 @@
+/home/class/code/C/Work/10_process
+
+//date;who;pwd>out1.txt
