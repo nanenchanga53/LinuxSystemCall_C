@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
+
+void intHandler();
+
 /* 부모 프로세스가 자식 프로세스를 생성하고 끝나기를 기다린다. */
 int main() 
 {
@@ -34,3 +37,11 @@ int main()
         //정순으로 만들고 싶으면 대기시간을 줘서 실행이 먼저되게 하자
 	printf("\t종료 코드 %d\n", status>>8);
 }
+
+void intHandler(int signo)
+{
+        printf("인터럽트 시그널 처리\n");
+        printf("시그널 번호: %d\n", signo);
+        exit(0);
+}
+

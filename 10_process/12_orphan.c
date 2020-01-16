@@ -1,7 +1,8 @@
 #include <sys/types.h>
 #include <wait.h>
 #include <stdio.h>
-int main(){
+int main()
+{
 	pid_t pid;
 
 	printf("Parent process : pid = %d, ppid = %d\n", getpid(), getppid());
