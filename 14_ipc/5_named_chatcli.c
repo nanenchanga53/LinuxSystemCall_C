@@ -7,23 +7,26 @@
 #include <unistd.h>
 #define MAXLINE 256
 
-int main() {
+int main()
+{
 	int fd1, fd2, n;
 	char inmsg[MAXLINE];
 
-// 작업 이름있는 파이프 연결 시작 -----
+// 작업 이름있는 파이프 연결 시작 ----- (하나의 파이프로 양방향 통신가능)
+        fd1 = open("./chatfifo1", O_RDONLY);
+        fd2 = open("./chatfifo2", O_WRONLY);
 
-
-
-
-
-
-
+        if(fd1 == -1 || fd2 == -1)
+        {
+                perror("open");
+                exit(1);
+        }
 // 작업 이름있는 파이프 연결 종료 -----
 
 	printf("* 클라이언트 시작 \n");
 
-	while(1) {
+        while(1)
+        {
 		n = read(fd1, inmsg, MAXLINE); 
 		printf("[서버] -> %s\n", inmsg);
 		printf("[클라이언트] : ");
